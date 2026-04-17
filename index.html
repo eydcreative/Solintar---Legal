@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solintar - Políticas Legales</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #1a1a1a; background: #f9f9f9; }
+  header { background: #1a1a2e; color: white; padding: 24px 40px; }
+  header h1 { font-size: 22px; font-weight: 600; }
+  header p { font-size: 13px; color: #aaa; margin-top: 4px; }
+  nav { background: white; border-bottom: 1px solid #eee; padding: 0 40px; display: flex; gap: 32px; }
+  nav a { display: block; padding: 16px 0; font-size: 14px; color: #555; text-decoration: none; border-bottom: 2px solid transparent; }
+  nav a:hover, nav a.active { color: #1a1a2e; border-bottom-color: #1a1a2e; }
+  .container { max-width: 800px; margin: 40px auto; padding: 0 40px; }
+  section { background: white; border-radius: 8px; padding: 40px; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); display: none; }
+  section.active { display: block; }
+  h2 { font-size: 22px; font-weight: 700; margin-bottom: 8px; color: #1a1a2e; }
+  .date { font-size: 13px; color: #999; margin-bottom: 28px; }
+  h3 { font-size: 15px; font-weight: 600; margin: 24px 0 8px; color: #333; }
+  p, li { font-size: 14px; line-height: 1.7; color: #555; }
+  ul { padding-left: 20px; margin-top: 8px; }
+  li { margin-bottom: 6px; }
+  a.email { color: #1a1a2e; }
+  footer { text-align: center; padding: 32px; font-size: 12px; color: #aaa; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Solintar</h1>
+  <p>Soluciones de Inteligencia Artificial para Negocios</p>
+</header>
+
+<nav>
+  <a href="#" class="active" onclick="show('privacy', this)">Política de Privacidad</a>
+  <a href="#" onclick="show('terms', this)">Términos de Servicio</a>
+</nav>
+
+<div class="container">
+
+  <section id="privacy" class="active">
+    <h2>Política de Privacidad</h2>
+    <p class="date">Última actualización: 17 de abril de 2026</p>
+
+    <h3>1. Quién somos</h3>
+    <p>Solintar es un servicio de desarrollo de agentes de inteligencia artificial para WhatsApp, operado por Ember De Abreu, con domicilio en Venezuela. Contacto: <a class="email" href="mailto:agumon154a@gmail.com">agumon154a@gmail.com</a></p>
+
+    <h3>2. Qué información recopilamos</h3>
+    <ul>
+      <li>Número de teléfono del usuario que inicia la conversación en WhatsApp.</li>
+      <li>Contenido de los mensajes enviados al agente para procesar la solicitud.</li>
+      <li>Historial de conversación dentro de la sesión activa.</li>
+      <li>Fecha y hora de las interacciones.</li>
+    </ul>
+
+    <h3>3. Cómo usamos la información</h3>
+    <ul>
+      <li>Para responder las consultas del usuario a través del agente de WhatsApp.</li>
+      <li>Para mejorar la calidad del servicio.</li>
+      <li>Para generar registros de auditoría en cumplimiento con las políticas de Meta.</li>
+      <li>No vendemos ni compartimos datos personales con terceros con fines comerciales.</li>
+    </ul>
+
+    <h3>4. Retención de datos</h3>
+    <p>Los mensajes y datos de conversación se conservan por un máximo de 90 días, tras los cuales son eliminados de forma segura. Los datos sensibles enviados por error (números de tarjeta, contraseñas, documentos de identidad) son eliminados dentro de las 24 horas siguientes a su detección.</p>
+
+    <h3>5. Seguridad</h3>
+    <p>Implementamos medidas de seguridad técnicas para proteger la información del usuario, incluyendo cifrado en reposo y en tránsito. El acceso a los datos está restringido al personal autorizado.</p>
+
+    <h3>6. Derechos del usuario</h3>
+    <p>El usuario puede solicitar en cualquier momento la eliminación de sus datos enviando un correo a <a class="email" href="mailto:agumon154a@gmail.com">agumon154a@gmail.com</a>. Procesaremos la solicitud en un plazo máximo de 72 horas.</p>
+
+    <h3>7. Uso de servicios de terceros</h3>
+    <p>Este servicio utiliza la API de WhatsApp Business de Meta Platforms, Inc., y modelos de inteligencia artificial de Anthropic, PBC. Cada proveedor tiene sus propias políticas de privacidad aplicables a sus plataformas.</p>
+
+    <h3>8. Cambios a esta política</h3>
+    <p>Nos reservamos el derecho de actualizar esta política. Los cambios serán publicados en esta página con la fecha de actualización correspondiente.</p>
+
+    <h3>9. Contacto</h3>
+    <p>Para cualquier consulta relacionada con privacidad: <a class="email" href="mailto:agumon154a@gmail.com">agumon154a@gmail.com</a></p>
+  </section>
+
+  <section id="terms">
+    <h2>Términos de Servicio</h2>
+    <p class="date">Última actualización: 17 de abril de 2026</p>
+
+    <h3>1. Aceptación</h3>
+    <p>Al interactuar con nuestro agente de WhatsApp, el usuario acepta los presentes términos de servicio. Si no está de acuerdo, debe abstenerse de usar el servicio.</p>
+
+    <h3>2. Descripción del servicio</h3>
+    <p>Solintar provee agentes de inteligencia artificial que responden consultas de usuarios finales a través de WhatsApp en nombre de negocios clientes (laboratorios, farmacias, restaurantes, entre otros).</p>
+
+    <h3>3. Uso aceptable</h3>
+    <ul>
+      <li>El servicio es exclusivamente para consultas relacionadas con el negocio al que pertenece el agente.</li>
+      <li>Está prohibido el uso abusivo, lenguaje ofensivo, o intentos de manipular el sistema.</li>
+      <li>No se permite el uso del servicio para actividades ilegales.</li>
+    </ul>
+
+    <h3>4. Limitación de responsabilidad</h3>
+    <p>El agente proporciona información de referencia. Solintar no se hace responsable por decisiones tomadas con base en la información proporcionada. Para decisiones médicas, financieras o legales, consulte siempre a un profesional calificado.</p>
+
+    <h3>5. Disponibilidad</h3>
+    <p>Nos esforzamos por mantener el servicio disponible de forma continua, pero no garantizamos disponibilidad ininterrumpida. En caso de fallas, notificaremos al usuario a través del propio canal de WhatsApp.</p>
+
+    <h3>6. Modificaciones</h3>
+    <p>Solintar se reserva el derecho de modificar, suspender o discontinuar el servicio en cualquier momento con notificación previa al cliente contratante.</p>
+
+    <h3>7. Ley aplicable</h3>
+    <p>Estos términos se rigen por las leyes de la República Bolivariana de Venezuela.</p>
+
+    <h3>8. Contacto</h3>
+    <p>Para consultas sobre estos términos: <a class="email" href="mailto:agumon154a@gmail.com">agumon154a@gmail.com</a></p>
+  </section>
+
+</div>
+
+<footer>© 2026 Solintar · Ember De Abreu · Venezuela</footer>
+
+<script>
+function show(id, el) {
+  document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  el.classList.add('active');
+  event.preventDefault();
+}
+</script>
+
+</body>
+</html>
